@@ -1,5 +1,9 @@
 # Fizibilite Formu Yönetim Sistemi (Feasibility Form Management System)
 
+
+  ![FizibiliteFlow](https://github.com/user-attachments/assets/cfeeef4a-b5ee-466a-8583-525e465ca8a8)
+
+
 ## 🚀 Fizibilite Formunun Amacı (Purpose of the Feasibility Form)
 
 Fizibilite formu, yeni bir ürün veya projenin hayata geçirilmesinden önce, teknik, mali ve operasyonel açıdan uygulanabilirliğinin sistematik olarak değerlendirilmesini sağlayan bir araçtır. Bu form sayesinde, ilgili tüm departmanlar (Ar-Ge, Kalite, Üretim, Satın Alma vb.) kendi uzmanlık alanlarına göre projeyi analiz eder, riskleri ve gereksinimleri ortaya koyar. Böylece, projenin başarıya ulaşması için gerekli ön koşullar, potansiyel engeller ve iyileştirme alanları erken aşamada tespit edilir. Fizibilite formu, şirket içinde departmanlar arası iletişimi ve şeffaflığı artırırken, karar alma süreçlerinin de daha sağlıklı ve veriye dayalı ilerlemesini sağlar.
