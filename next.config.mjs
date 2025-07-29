@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/FizibiliteFormu", // önemli!
+  basePath: "/FizibiliteFormu",
+  assetPrefix: "/FizibiliteFormu/",
 };
 
-export default nextConfig;
+module.exports = nextConfig;
