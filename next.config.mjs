@@ -1,14 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+const isGithub = process.env.NODE_ENV === "production";
+
+export default {
+  output: "export",
+  basePath: isGithub ? "/FizibiliteFormu" : "",
+  assetPrefix: isGithub ? "/FizibiliteFormu/" : "",
   images: {
     unoptimized: true,
   },
 };
-
-export default nextConfig;
