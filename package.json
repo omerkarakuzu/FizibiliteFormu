@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out --no-jekyll"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "homepage": "https://omerkarakuzu.github.io/FizibiliteFormu",
   "dependencies": {
