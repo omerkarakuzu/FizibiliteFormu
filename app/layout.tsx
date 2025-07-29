@@ -1,19 +1,19 @@
-import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
-import './globals.css'
-import { Toaster } from "@/components/ui/toaster"
+import type { Metadata } from "next";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
+import "./globals.css";
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
-}
+  title: "Fizibilite Formu",
+  description: "Created with v0",
+  generator: "Ömer Karakuzu",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -26,9 +26,10 @@ html {
 }
         `}</style>
       </head>
-      <body>{children}
+      <body>
+        {children}
         <Toaster />
       </body>
     </html>
-  )
+  );
 }
