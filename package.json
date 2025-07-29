@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
-  "homepage": "https://omerkarakuzu.github.io/FizibiliteFormu",
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "1.2.2",

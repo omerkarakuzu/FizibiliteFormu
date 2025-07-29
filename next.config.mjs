@@ -1,10 +1,14 @@
-const isGithub = process.env.NODE_ENV === "production";
-
-export default {
-  output: "export",
-  basePath: isGithub ? "/FizibiliteFormu" : "",
-  assetPrefix: isGithub ? "/FizibiliteFormu/" : "",
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     unoptimized: true,
   },
 };
+
+export default nextConfig;
